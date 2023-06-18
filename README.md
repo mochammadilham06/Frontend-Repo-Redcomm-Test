@@ -20,6 +20,7 @@ npm run build
 
 yarn run build
 ```
+And then
 ```
 1. Create file .env
 2. Fill with NUXT_PUBLIC_API_BASE=http://localhost:[PORT]/api
