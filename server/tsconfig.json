@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["esnext", "esnext.asynciterable", "dom"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@cw-component/*": ["./src/components/*"],
+      "@cw-configs/*": ["./src/configs/*"],
+      "@cw-utils/*": ["./src/utils/*"],
+      "@cw-api/*": ["./src/api/*"]
+    },
+    "types": ["@nuxt/types", "@nuxtjs/axios", "@nuxtjs/pwa"]
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
